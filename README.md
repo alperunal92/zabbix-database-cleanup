@@ -20,7 +20,7 @@ The queries are tested against Zabbix 1.8 and 2.0. Aplly with caution to other v
 
     user@host-$ psql zabbix < orphaned/clean.sql
 
-#### Delete old data (1 week for history, 3 months for trends - edit sql at your own discretion)
+#### Delete old data (1 week for history, 1 months for trends - edit sql at your own discretion)
 
     user@host-$ psql zabbix < old/postgresql/clean.sql
 
